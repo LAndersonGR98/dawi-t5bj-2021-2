@@ -7,7 +7,7 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 
-//import model.Categoria;
+import model.ComboTipoProducto;
 import model.Producto;
 import model.Usuario;
 
@@ -91,6 +91,8 @@ public class FrmLogin extends JFrame {
 	
 	
 	void registrar() {
+		
+		/*---------------------------Registrar Login-----------------------------------------*/
 		
 		String usuario=txtUsuario.getText();
 		
