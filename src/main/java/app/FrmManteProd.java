@@ -168,6 +168,8 @@ public class FrmManteProd extends JFrame {
 		
 	void listado() {
 		
+		/*-------------------------Listado------------------------------------*/
+		
 		EntityManagerFactory fabrica=Persistence.createEntityManagerFactory("mysql");
 		
 		EntityManager em= fabrica.createEntityManager();
